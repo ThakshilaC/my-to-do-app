@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #4FAAAA;
+}
+ .container input[type=text]{
+  background-color: #B2DDE3;
+  width: 400;
+  color: black;
+  padding-top: 10px;
+ 
+}
+  .container input[type=submit]{
+    background-color: #3E3D59;
+    color: black;
+    width: 118px;
+    padding: 300px;
+  }
+  .container input[type=submit]:hover{
+    background-color: #B2DDE3;
+    color: black;
+    
+  }
+  .container ul li{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: black;
+    padding-right: 10px;
+    align-items: center;
+   
+  }
+  .complete{
+    text-decoration: line-through;
+    text-decoration: thickness 3px;
+    text-decoration-color: rgb(186, 186, 206);
+   
+  }
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #B2DDE3;
+}
+.input-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #E1A346;
+  
+}
+
+.list-wrapper{
+  display: flex;
+  justify-content: space-between;
+  background-color: #73B768;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+ 
+}
+ 
+
+input[type='text'] {
+  padding: 10px;
+  margin-right: 10px;
+}
+input[type='submit'] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color:  #B2DDE3;
+  border: none;
+  cursor: pointer;
+  background-color:  #3E3D59;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+
+}
+
+ul {
+  list-style-type: none;
+  padding:1699px 600px;
+  background-color: #dbe73349;
+}
